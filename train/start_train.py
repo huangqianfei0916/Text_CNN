@@ -119,7 +119,7 @@ if __name__ == '__main__':
     parser.add_argument('-test_data_path')
     parser.add_argument('-test_pos', type=int)
     parser.add_argument('-test_neg', type=int)
-    parser.add_argument('-fix_len', required=True, type=int)
+    parser.add_argument('-fix_len', default=39, type=int)
     parser.add_argument('-learning_rate', default=0.005)
     parser.add_argument('-dropout', default=0.3)
     parser.add_argument('-num_classes', default=2)
