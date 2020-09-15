@@ -12,12 +12,20 @@ python fasta2word.py -fasta xxx.fasta
 ```
 * 2 设置参数
 ```
+# 必要参数
 -train_data_path
 /Users/huangqianfei/Desktop/6mA/data/880/trainword.txt
 -train_pos
 880
 -train_neg
 880
+# 非必要参数
+-test_data_path
+xxx.fasta
+-test_pos
+800
+-test_neg
+800
 ```
 
 ******************************
