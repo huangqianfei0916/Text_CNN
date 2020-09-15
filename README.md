@@ -8,7 +8,7 @@
 * 用法
 * 1 通过fasta2word将fasta先进行分词
 ```
-python fasta2word -fasta xxx.fasta
+python fasta2word.py -fasta xxx.fasta
 ```
 * 2 设置参数
 ```
